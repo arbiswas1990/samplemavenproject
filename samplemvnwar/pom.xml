@@ -4,14 +4,13 @@
   <groupId>com.kuldeeparya</groupId>
   <artifactId>samplemvnwar</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.${v}-SNAPSHOT</version>
   <name>samplemvnwar</name>
-  <url>https://mystorage.jfrog.io/artifactory/sampleProj</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -20,23 +19,9 @@
       <version>2.5</version>
     </dependency>
   </dependencies>
+  
   <build>
     <finalName>samplemvnwar</finalName>
-    <plugins>
-                <plugin>
-                                <groupId>org.apache.tomcat.maven</groupId>
-                                <artifactId>tomcat7-maven-plugin</artifactId>
-                                <version>2.2</version>
-                <configuration>
-                                <url>http://13.235.48.84:8080/manager/text</url>
-                                <server>tomcat8_vy</server>
-                                <username>arpan</username>
-                                <password>test@123</password>
-                                <path>/hello</path>
-                        </configuration>
-                </plugin>
-   </plugins>
-
   </build>
   
 </project>
