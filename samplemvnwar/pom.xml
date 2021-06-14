@@ -4,7 +4,7 @@
   <groupId>poc</groupId>
   <artifactId>samplemvnwar</artifactId>
   <packaging>war</packaging>
-  <version>06.21.${v}</version>
+  <version>${v}</version>
   <name>samplemvnwar</name>
   <dependencies>
     <dependency>
